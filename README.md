@@ -12,7 +12,6 @@
     <title>สัตว์ของฉัน</title>
   </head>
   <body>
-
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
