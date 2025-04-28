@@ -25,46 +25,38 @@
   </style>
 </head>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">My Pets</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <!-- Home -->
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-
-        <!-- Dropdown: สัตว์ของฉัน -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle active" href="#" id="animalsDropdown" role="button"
-            data-bs-toggle="dropdown" aria-expanded="false">
-            My Animals
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="animalsDropdown">
-            <li><a class="dropdown-item" href="parrot.html">Parrot</a></li>
-            <li><a class="dropdown-item" href="redpanda.html">Red Panda</a></li>
-            <li><a class="dropdown-item" href="liverbird.html">Liver Bird</a></li>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">My Pets</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <!-- Dropdown Menu for Animals -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " href="#" id="animalsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              My Animals
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="animalsDropdown">
+              <li><a class="dropdown-item" href="parrot.html">Parrot</a></li>
+              <li><a class="dropdown-item" href="redpanda.html">Red Panda</a></li>
+              <li><a class="dropdown-item" href="liverbird.html">Liver bird</a></li>
+            </ul>
+          </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
           </ul>
-        </li>
-
-        <!-- Services -->
-        <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
-        </li>
-
-        <!-- Contact -->
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+        </div>
+      </div>
 <body>
 
   <div class="p-5 bg-danger text-white text-center">
