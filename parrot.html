@@ -43,10 +43,20 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link"Home">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">สัตว์ของฉัน</a>
+                <!-- Dropdown Menu for Animals -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " href="#" id="animalsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              My Animals
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="animalsDropdown">
+              <li><a class="dropdown-item" href="parrot.html">Parrot</a></li>
+              <li><a class="dropdown-item" href="redpanda.html">Red Panda</a></li>
+              <li><a class="dropdown-item" href="liverbird.html">Liver bird</a></li>
+            </ul>
+          </li>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Services</a>
